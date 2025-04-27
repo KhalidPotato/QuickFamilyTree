@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>QuickFamilyTree Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="top-buttons">
-        <button id="import-button">
+        <button id="importButton">
             <img src="import.png" alt="Import">
         </button>
-        <button id="download-button">
+        <button id="downloadButton">
             <img src="download.png" alt="Download">
         </button>
     </div>
 
-    <div class="center-circle">
-        <img src="default.png" alt="Family Member" id="main-circle-image">
+    <div class="center-image">
+        <img id="mainImage" src="default.png" alt="Default">
     </div>
 
-    <input type="file" id="file-input" accept=".json" style="display: none;">
+    <input type="file" id="fileInput" accept=".json" style="display: none;">
 
     <script src="index.js"></script>
 </body>
