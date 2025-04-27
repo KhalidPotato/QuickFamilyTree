@@ -12,9 +12,8 @@ body {
 #tree {
   margin-top: 20px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .person {
@@ -25,4 +24,13 @@ body {
   min-width: 100px;
   text-align: center;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  margin: 10px;
+  position: relative;
+}
+
+.connection {
+  width: 2px;
+  height: 20px;
+  background-color: #4a90e2;
+  margin: 0 auto;
 }
